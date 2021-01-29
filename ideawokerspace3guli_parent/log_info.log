@@ -1,0 +1,22 @@
+2021-01-22 11:54:33.107 [main] INFO  com.haipeng.eduservice.EduApplication - Starting EduApplication on DESKTOP-K05R5LS with PID 10544 (G:\ideawokerspace3\guli_parent\service\service_edu\target\classes started by Administrator in G:\ideawokerspace3\guli_parent)
+2021-01-22 11:54:33.112 [main] INFO  com.haipeng.eduservice.EduApplication - The following profiles are active: dev
+2021-01-22 11:54:34.565 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-22 11:54:34.570 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-22 11:54:34.591 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-01-22 11:54:34.840 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-22 11:54:35.066 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-01-22 11:54:35.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-22 11:54:35.074 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-22 11:54:35.075 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-01-22 11:54:35.182 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-22 11:54:35.183 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1935 ms
+2021-01-22 11:54:35.357 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-22 11:54:35.856 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-22 11:54:36.356 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-22 11:54:36.461 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-22 11:54:36.878 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-22 11:54:36.894 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-22 11:54:36.926 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-22 11:54:37.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-22 11:54:37.118 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-01-22 11:54:37.121 [main] INFO  com.haipeng.eduservice.EduApplication - Started EduApplication in 5.154 seconds (JVM running for 6.151)
