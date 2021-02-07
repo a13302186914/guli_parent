@@ -13,7 +13,7 @@ import java.util.UUID;
 
 @Service
 public class OssServiceImpl implements OssService {
-    //上传头像到oss
+    //上传头像到oss11
     @Override
     public String uploadFileAvatar(MultipartFile file) {
         // 工具类获取值nn
