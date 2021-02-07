@@ -16,7 +16,7 @@ public class OssServiceImpl implements OssService {
     //上传头像到oss
     @Override
     public String uploadFileAvatar(MultipartFile file) {
-        // 工具类获取值
+        // 工具类获取值nn
         String endpoint = ContstantPropertiesUtils.END_POIND;
         String accessKeyId = ContstantPropertiesUtils.ACCESS_KEY_ID;
         String accessKeySecret = ContstantPropertiesUtils.ACCESS_KEY_SECRET;
