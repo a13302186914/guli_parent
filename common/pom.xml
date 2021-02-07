@@ -16,7 +16,7 @@
         <module>common_utils</module>
         <module>service_base</module>
         <module>service_utils</module>
-        <module>ucommon_</module>
+<!--        <module>ucommon_</module>-->
         <module>common_utils</module>
     </modules>
     <dependencies>

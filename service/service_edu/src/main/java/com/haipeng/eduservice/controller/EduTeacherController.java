@@ -25,6 +25,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/eduservice/edu-teacher")
+@CrossOrigin
 public class EduTeacherController {
     //访问地址： http://localhost:8001/eduservice/teacher/findAll
     //把service注入
@@ -43,7 +44,7 @@ public class EduTeacherController {
 
     //2 逻辑删除讲师的方法
     @ApiOperation(value = "逻辑删除讲师")
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public R removeTeacher(@ApiParam(name = "id", value = "讲师ID", required = true)
                            @PathVariable String id) {
         boolean flag = teacherService.removeById(id);
@@ -118,7 +119,7 @@ public class EduTeacherController {
         if(!StringUtils.isEmpty(end)) {
             wrapper.le("gmt_create",end);
         }
-
+        wrapper.orderByDesc("gmt_create");
         //调用方法实现条件查询分页
         teacherService.page(pageTeacher,wrapper);
 
